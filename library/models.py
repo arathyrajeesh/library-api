@@ -5,6 +5,6 @@ class Book(models.Model):
     author = models.CharField(max_length=100)
     published_date = models.DateField()
     pages = models.IntegerField()
-
+    
     def __str__(self):
         return self.title
